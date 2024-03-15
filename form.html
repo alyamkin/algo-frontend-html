@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username" placeholder="user123" />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" minlength="6" />
+
+      <input type="date" name="date" />
+
+      <input type="checkbox" name="checkbox" />
+
+      <fieldset>
+        <legend>Choose your animal</legend>
+        <label for="dog">Dog</label>
+        <input id="dog" type="radio" name="animal" value="dog" />
+        <label for="cat">Cat</label>
+        <input id="cat" type="radio" name="animal" value="cat" />
+        <label for="horse">Horse</label>
+        <input id="horse" type="radio" name="animal" value="horse" />
+      </fieldset>
+
+      <select name="lang">
+        <option value="en">English</option>
+        <option value="rus">Russian</option>
+        <option value="sp">Spain</option>
+      </select>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

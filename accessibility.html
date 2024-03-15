@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessibility Deme</title>
+  <link rel="stylesheet" href="/tabs.css">
+  <script src="/tabs.js" defer></script>
+  </head>
+  <body>
+    <ol class="tabs" role="tablist">
+      <li class="tab tab-1" role="tab" aria-controls="panel1">Tab 1</li>
+      <li class="tab tab-2" role="tab" aria-controls="panel2">Tab 2</li>
+      <li class="tab tab-3" role="tab" aria-controls="panel3">Tab 3</li>
+    </ol>
+
+    <div class="panels">
+      <div class="panel panel-1 active" role="tabpanel" id="panel1">
+        <p>Panel 1</p>
+      </div>
+      <div class="panel panel-2" role="tabpanel" id="panel2">
+        <p>Panel 2</p>
+      </div>
+      <div class="panel panel-3" role="tabpanel" id="panel3">
+        <p>Panel 3</p>
+      </div>
+    </div>
+  <body>
+</html>

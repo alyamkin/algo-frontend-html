@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.tabs {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.panel {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 640px;
+  height: 480px;
+  display: none;
+  align-items: center;
+}
+
+.panel-1 {
+  background-color: cyan;
+}
+
+.panel-2 {
+  background-color: yellowgreen;
+}
+
+.panel-3 {
+  background-color: coral;
+}
+
+.active {
+  display: flex;
+}
